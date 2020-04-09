@@ -1,4 +1,5 @@
 import cmath
 
-c = 1 + 2j
+c = complex(input())
 print(cmath.polar(c))
+
