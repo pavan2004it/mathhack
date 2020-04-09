@@ -1,5 +1,7 @@
 import cmath
 
 c = complex(input())
-print(cmath.polar(c))
-
+polar = cmath.polar(c)
+x, y = polar
+print(x)
+print(y)
